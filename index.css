@@ -1,0 +1,13 @@
+#container {
+  text-align: center;
+  font-size: 32px;
+}
+
+#output {
+  display: inline-block;
+  text-align: left;
+  letter-spacing: 8px;
+  border: 2px solid transparent;
+  margin: 0;
+  padding: 10px 10px 10px 18px;
+}

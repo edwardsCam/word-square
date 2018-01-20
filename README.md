@@ -20,4 +20,12 @@ Just whatever makes the biggest square (or rectangle).
 * Tests are in `src/\*\*/\_\_tests\_\_/\*.test.js`
 
 ## TODO
-* Build it?
+* Allow user to enter words
+* Allow user to configure delay
+* Make pretty
+* Cool graphics showing which tile it's working on, and what letter it's considering.
+
+## Known bugs
+* If you have words that contain other words in the list,
+it will not consider the shorter ones.
+e.g. 'crap' and 'crapshoot', the first will get ignored.

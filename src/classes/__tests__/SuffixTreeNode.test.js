@@ -26,6 +26,13 @@ describe('classes::SuffixTreeNode', () => {
     expect(node.children()[0].value()).to.eq('b');
   });
 
+  it('tells me if there are successors', () => {
+    const node = new SuffixTreeNode('a');
+    expect(node.hasChildren()).to.be.false;
+    node.addChild('b');
+    expect(node.hasChildren()).to.be.true;
+  });
+
   it('lets me get a specific child', () => {
     const node = new SuffixTreeNode('a');
     node.addChild('b');

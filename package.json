@@ -25,5 +25,8 @@
   },
   "engine": {
     "node": ">=1.0"
+  },
+  "dependencies": {
+    "lodash.shuffle": "^4.2.0"
   }
 }

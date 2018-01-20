@@ -14,11 +14,7 @@ export default function SuffixTree(rootValue) {
     if (!this.startsWith(word[0])) return;
     let node = root;
     for (let i = 1; i < word.length; i++) {
-      const c = word[i];
-      if (!node.getChild(c)) {
-        node.addChild(c);
-      }
-      node = node.getChild(c);
+      node = node.addChild(word[i]);
     }
   };
 
@@ -27,10 +23,9 @@ export default function SuffixTree(rootValue) {
     let node = root;
     for (let i = 1; i < word.length; i++) {
       const c = word[i];
-      if (!node.getChild(c)) {
-        return false;
-      }
-      node = node.getChild(c);
+      const child = node.getChild(c);
+      if (!child) return false;
+      node = child;
     }
     return true;
   };

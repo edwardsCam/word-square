@@ -18,6 +18,10 @@ export default function SuffixTreeNode(val, par = null) {
     return children;
   };
 
+  this.hasChildren = function() {
+    return !!children.length;
+  };
+
   this.getChild = function(nextLetter = '') {
     return children.find(node => node.value() === nextLetter);
   };

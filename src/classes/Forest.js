@@ -17,6 +17,11 @@ export default function Forest() {
     return this.get(word[0]);
   };
 
+  this.getLastNodeOfWord = function(word = '') {
+    const tree = this.getFromFirstLetter(word);
+    return tree ? tree.getLastNodeOfWord(word) : null;
+  };
+
   this.add = function(word = '') {
     const firstLetter = word[0];
     let tree = this.get(firstLetter);
