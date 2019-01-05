@@ -1,5 +1,7 @@
 # Word Square
 
+https://edwardscam.github.io/word-square/
+
 Given a list of words (currently hardcoded), produce the largest possible
 [Word Square](https://en.wikipedia.org/wiki/Word_square).
 
