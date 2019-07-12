@@ -6,13 +6,11 @@ import uppity from './uppity';
 import largestCol from './largestCol';
 import allWordsAreComplete from './allWordsAreComplete';
 import markGrid from './markGrid';
-import shuffle from 'lodash.shuffle';
 
 const DELAY = 100;
 
-export default function buildWordSquare(words, doShuffle) {
+export default function buildWordSquare(words) {
   words = uppity(words);
-  if (doShuffle) words = shuffle(words);
   let grid = [];
   const usedWords = {};
   const forest = buildForest(words);

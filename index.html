@@ -4,8 +4,19 @@
     <link rel='stylesheet' type='text/css' href='index.css' />
   </head>
   <body>
+    <input type="radio" name="size" value="3">3
+    <input type="radio" name="size" value="4" checked>4
+    <input type="radio" name="size" value="5">5
+    <input type="radio" name="size" value="6">6
+    <input type="radio" name="size" value="8">8
+    <button id='startBtn'>Go!</button>
     <div id='container' >
-      <pre id='output' />
+      <div id='inputWordsContainer'>
+        <pre id='inputWords'></pre>
+      </div>
+      <div id='outputContainer'>
+        <pre id='output'></pre>
+      </div>
     </div>
     <script src='dist/main.js'></script>
   </body>
