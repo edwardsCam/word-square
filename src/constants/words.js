@@ -7,19 +7,21 @@ const three = [
   'urn',
 ]
 
-// const four = [
-//   'land',
-//   'area',
-//   'aria',
-//   'ball',
-//   'barn',
-//   'lady',
-//   'liar',
-//   'nary',
-//   'read',
-//   'bare',
-//   'real',
-// ];
+const threeDistractors = [
+  'bed',
+  'bin',
+  'mat',
+  'mic',
+  'nit',
+  'old',
+  'orb',
+  'top',
+  'tug',
+  'ilk',
+  'two',
+  'wee',
+  'zed',
+]
 
 const four = [
   'area',
@@ -30,6 +32,26 @@ const four = [
   'lack',
   'limb',
   'mere',
+]
+
+const fourDistractors = [
+  'aloe',
+  'aria',
+  'arts',
+  'back',
+  'bark',
+  'cake',
+  'core',
+  'dank',
+  'dark',
+  'kind',
+  'lace',
+  'lake',
+  'land',
+  'like',
+  'more',
+  'wake',
+  'zing',
 ]
 
 const five = [
@@ -45,6 +67,27 @@ const five = [
   'tenet',
 ]
 
+const fiveDistractors = [
+  'acorn',
+  'alive',
+  'arbor',
+  'artsy',
+  'bulbs',
+  'candy',
+  'canon',
+  'carve',
+  'fixed',
+  'fleas',
+  'flesh',
+  'foxes',
+  'moose',
+  'scant',
+  'scare',
+  'scene',
+  'scold',
+  'wilts',
+]
+
 const six = [
   'admits',
   'adsorb',
@@ -58,6 +101,29 @@ const six = [
   'serene',
   'sneers',
   'tented',
+]
+
+const sixDistractors = [
+  'addled',
+  'admins',
+  'admire',
+  'adzuki',
+  'arcane',
+  'arrest',
+  'brainy',
+  'brawny',
+  'brazen',
+  'breeze',
+  'brewer',
+  'browns',
+  'canoes',
+  'deadly',
+  'deeply',
+  'enters',
+  'idiocy',
+  'series',
+  'tenors',
+  'tenure',
 ]
 
 const eight = [
@@ -79,6 +145,36 @@ const eight = [
   'tropisms',
 ]
 
+const eightDistractors = [
+  'albinism',
+  'alomancy',
+  'alopecia',
+  'amassing',
+  'ambrosia',
+  'amputees',
+  'diagrams',
+  'diseased',
+  'hempweed',
+  'laboured',
+  'liberate',
+  'limewash',
+  'limonite',
+  'limonoid',
+  'metallic',
+  'metamery',
+  'motorcar',
+  'rattiest',
+  'rattling',
+  'ropeless',
+  'ropiness',
+  'sessions',
+  'sestyles',
+  'tentacle',
+  'tentless',
+  'tentlike',
+  'tetrapod',
+  'textuary',
+]
 
 export {
   three,
@@ -86,4 +182,9 @@ export {
   five,
   six,
   eight,
+  threeDistractors,
+  fourDistractors,
+  fiveDistractors,
+  sixDistractors,
+  eightDistractors,
 }

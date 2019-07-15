@@ -7,7 +7,7 @@ document.getElementById('startBtn').onclick = () => {
   document.getElementById('output').style.borderColor = 'transparent'
   const size = document.querySelector('input[name="size"]:checked').value
   const words = shuffle(
-    getWordList(size)
+    getWordList(size, true)
   )
   document.getElementById('inputWords').innerHTML = words.join('\n')
   buildWordSquare(words).then(result => {
