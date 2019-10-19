@@ -9,7 +9,7 @@ import {
   fiveDistractors,
   sixDistractors,
   eightDistractors,
-} from '../constants/words';
+} from 'constants/words';
 
 export default (size, withDistractors) => {
   switch (size) {
